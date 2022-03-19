@@ -4079,6 +4079,29 @@
                 prevEl: ".swiperg-button-prev",
                 nextEl: ".swiperg-button-next"
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.1,
+                    spaceBetween: 0,
+                    autoHeight: false
+                },
+                480: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                1268: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            },
             on: {}
         });
     }
