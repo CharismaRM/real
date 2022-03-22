@@ -4082,7 +4082,7 @@
             breakpoints: {
                 320: {
                     slidesPerView: 1.1,
-                    spaceBetween: 0,
+                    spaceBetween: 2,
                     autoHeight: false
                 },
                 480: {

@@ -6,27 +6,27 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/template_styles.css?_v=20220319104638">
-	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css?_v=20220319104638"> -->
+	<link rel="stylesheet" href="css/template_styles.css?_v=20220322200304">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css?_v=20220322200304">
 	<link rel="stylesheet"
-		href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?_v=20220319104638">
+		href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?_v=20220322200304">
 	<link rel="stylesheet"
-		href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css?_v=20220319104638">
+		href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css?_v=20220322200304">
 	<link rel="stylesheet" type="text/css"
-		href="https://real-avto.com/local/templates/real/css/style.css?_v=20220319104638">
+		href="https://real-avto.com/local/templates/real/css/style.css?_v=20220322200304">
 	<!-- подвал -->
 	<link rel="stylesheet" type="text/css"
-		href="https://real-avto.com/local/templates/real/css/style2.css?_v=20220319104638">
+		href="https://real-avto.com/local/templates/real/css/style2.css?_v=20220322200304">
 	<link rel="stylesheet" type="text/css"
-		href="https://real-avto.com/local/templates/real/js/slick/slick.css?_v=20220319104638">
+		href="https://real-avto.com/local/templates/real/js/slick/slick.css?_v=20220322200304">
 	<link rel="stylesheet" type="text/css"
-		href="https://real-avto.com/local/templates/real/js/slick/slick-theme.css?_v=20220319104638">
+		href="https://real-avto.com/local/templates/real/js/slick/slick-theme.css?_v=20220322200304">
 	<link rel="stylesheet" type="text/css"
-		href="https://real-avto.com/local/templates/real/js/selectize/dist/css/selectize.bootstrap3.css?_v=20220319104638">
+		href="https://real-avto.com/local/templates/real/js/selectize/dist/css/selectize.bootstrap3.css?_v=20220322200304">
 	<link rel="stylesheet"
-		href="https://real-avto.com/local/templates/real/js/fancybox/dist/jquery.fancybox.min.css?_v=20220319104638">
-	<link rel="stylesheet" href="css/new_styles.css?_v=20220319104638">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220319104638">
+		href="https://real-avto.com/local/templates/real/js/fancybox/dist/jquery.fancybox.min.css?_v=20220322200304">
+	<link rel="stylesheet" href="css/new_styles.css?_v=20220322200304">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220322200304">
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -281,7 +281,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<link href="/bitrix/css/main/font-awesome.css?160810418528777&_v=20220319104638" type="text/css"
+							<link href="/bitrix/css/main/font-awesome.css?160810418528777&_v=20220322200304" type="text/css"
 								rel="stylesheet">
 							<div class="bx-breadcrumb">
 								<div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemscope=""
@@ -426,7 +426,7 @@
 								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя"
 									class="input entry__input">
 								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
-									placeholder="Ваш номер телефона" class="input">
+									placeholder="Ваш номер телефона" class="input entry__input">
 								<button type="submit" class="button btn">Записаться</button>
 							</div>
 						</div>
@@ -458,7 +458,7 @@
 									</a>
 									<a href="#" class="start__app">
 										<picture>
-											<source srcset="img/start/05.webp" type="image/webp"><img src="img/start/04.png"
+											<source srcset="img/start/04.webp" type="image/webp"><img src="img/start/04.png"
 												alt="">
 										</picture>
 									</a>
@@ -575,7 +575,7 @@
 						<div class="price__description">
 							<div class="price__title title">Стоимость обучения</div>
 							<select name="form[]" class="form">
-								<option value="1" selected>Пункт №1</option>
+								<option value="1" selected>Орехово-Зуево </option>
 								<option value="2">Пункт №2</option>
 								<option value="3">Пункт №3</option>
 								<option value="4">Пункт №4</option>
@@ -595,38 +595,47 @@
 								<div class="card__new title">29 000 ₽ </div>
 								<div class="card__stock">акция «Счастливые часы»</div>
 								<div class="card__condition">5 000 ₽ первоначальный взнос </div>
-								<ul class="card__list">
-									<li class="card__item text">
-										Теория онлайн в мобильном приложении
-									</li>
-									<li class="card__item text">
-										Начало занятий в день обращения
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller="768" class="spollers__title">Показать что
+											входит</button>
+										<div class="spollers__body">
+											<ul class="card__list">
+												<li class="card__item text">
+													Теория онлайн в мобильном приложении
+												</li>
+												<li class="card__item text">
+													Начало занятий в день обращения
 
-									</li>
-									<li class="card__item text">
-										Стандартный курс вождения в удобное для Вас время
+												</li>
+												<li class="card__item text">
+													Стандартный курс вождения в удобное для Вас время
 
-									</li>
-									<li class="card__item text">
-										Бензин и учебная литература
-									</li>
-									<li class="card__item text">
-										Оформление документов для ГИБДД
+												</li>
+												<li class="card__item text">
+													Бензин и учебная литература
+												</li>
+												<li class="card__item text">
+													Оформление документов для ГИБДД
 
-									</li>
-									<li class="card__item text">
-										Изучение экзаменационных маршрутов ГИБДД
-									</li>
-									<li class="card__item text">
-										Сопровождение до получения прав
+												</li>
+												<li class="card__item text">
+													Изучение экзаменационных маршрутов ГИБДД
+												</li>
+												<li class="card__item text">
+													Сопровождение до получения прав
 
-									</li>
+												</li>
 
-									<li class="card__item text">
-										Срок обучения 2 месяца
+												<li class="card__item text">
+													Срок обучения 2 месяца
 
-									</li>
-								</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
 								<div class="card__btn btn">Записаться</div>
 							</div>
 							<div class="price__card card ">
@@ -638,38 +647,46 @@
 								<div class="card__new title">32 000 ₽ </div>
 								<div class="card__stock card__stock_orange">акция «Счастливые часы»</div>
 								<div class="card__condition">5 000 ₽ первоначальный взнос </div>
-								<ul class="card__list">
-									<li class="card__item text">
-										Теория онлайн в мобильном приложении
-									</li>
-									<li class="card__item text">
-										Начало занятий в день обращения
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title">Показать что входит</button>
+										<div class="spollers__body">
+											<ul class="card__list">
+												<li class="card__item text">
+													Теория онлайн в мобильном приложении
+												</li>
+												<li class="card__item text">
+													Начало занятий в день обращения
 
-									</li>
-									<li class="card__item text">
-										Стандартный курс вождения в удобное для Вас время
+												</li>
+												<li class="card__item text">
+													Стандартный курс вождения в удобное для Вас время
 
-									</li>
-									<li class="card__item text">
-										Бензин и учебная литература
-									</li>
-									<li class="card__item text">
-										Оформление документов для ГИБДД
+												</li>
+												<li class="card__item text">
+													Бензин и учебная литература
+												</li>
+												<li class="card__item text">
+													Оформление документов для ГИБДД
 
-									</li>
-									<li class="card__item text">
-										Изучение экзаменационных маршрутов ГИБДД
-									</li>
-									<li class="card__item text">
-										Сопровождение до получения прав
+												</li>
+												<li class="card__item text">
+													Изучение экзаменационных маршрутов ГИБДД
+												</li>
+												<li class="card__item text">
+													Сопровождение до получения прав
 
-									</li>
+												</li>
 
-									<li class="card__item text">
-										Срок обучения 2 месяца
+												<li class="card__item text">
+													Срок обучения 2 месяца
 
-									</li>
-								</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
 								<div class="card__btn btn">Записаться</div>
 							</div>
 						</div>
@@ -685,7 +702,7 @@
 								Инструкторы
 							</div>
 							<select name="form[]" class="form">
-								<option value="1" selected>Пункт №1</option>
+								<option value="1" selected>Орехово-Зуево</option>
 								<option value="2">Пункт №2</option>
 								<option value="3">Пункт №3</option>
 								<option value="4">Пункт №4</option>
@@ -925,8 +942,13 @@
 							</div>
 
 							<!-- Если нужна навигация (влево/вправо) -->
-							<button type="button" class="swiperg-button-prev _icon-arrow-left"></button>
-							<button type="button" class="swiperg-button-next _icon-arrow-right"></button>
+
+							<div class="reviews__btns">
+								<div class="reviews__btn btn">Все отзывы</div>
+								<button type="button" class="swiperg-button-prev _icon-arrow-left"></button>
+								<button type="button" class="swiperg-button-next _icon-arrow-right"></button>
+							</div>
+
 
 						</div>
 
@@ -1018,10 +1040,61 @@
 									<option value="4">Пункт №4</option>
 								</select>
 								<ul class="map__list">
-									<li class="map__item">Ленина 75</li>
-									<li class="map__item">Ленина 75</li>
+									<li class="map__item"><a href="#">Ленина 75</a>
+										<div class="map__object">
+											<div class="map__image">
+												<picture>
+													<source srcset="img/map/office.webp" type="image/webp"><img
+														src="img/map/office.png" alt="">
+												</picture>
+											</div>
+											<div class="map__city title">Орехово-зуево</div>
+											<div class="map__adress">Ленина 75</div>
+											<div class="map__logo">
+												<picture>
+													<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="">
+												</picture>
+											</div>
 
-									<li class="map__item">Ленина 75</li>
+										</div>
+									</li>
+									<li class="map__item"><a href="#">Вокзальная 4</a>
+										<div class="map__object">
+											<div class="map__image">
+												<picture>
+													<source srcset="img/map/office.webp" type="image/webp"><img
+														src="img/map/office.png" alt="">
+												</picture>
+											</div>
+											<div class="map__city title">Орехово-зуево</div>
+											<div class="map__adress">Вокзальная 4</div>
+											<div class="map__logo">
+												<picture>
+													<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="">
+												</picture>
+											</div>
+
+										</div>
+									</li>
+
+									<li class="map__item"><a href="#">Бирюкова 4а</a>
+										<div class="map__object">
+											<div class="map__image">
+												<picture>
+													<source srcset="img/map/office.webp" type="image/webp"><img
+														src="img/map/office.png" alt="">
+												</picture>
+											</div>
+											<div class="map__city title">Орехово-зуево</div>
+											<div class="map__adress">Вокзальная 4</div>
+											<div class="map__logo">
+												<picture>
+													<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="">
+												</picture>
+											</div>
+
+										</div>
+									</li>
 
 								</ul>
 								<div class="map__logo">
@@ -1029,6 +1102,7 @@
 										<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="">
 									</picture>
 								</div>
+
 							</div>
 							<iframe
 								src="https://yandex.ru/map-widget/v1/?um=constructor%3A858547f8b855239ff7936c3af094362c891c040474889509bbb91cb937710185&amp;source=constructor"
@@ -1043,89 +1117,89 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<!-- <div class="container footer__container"> -->
-			<div class="footer-top__div">
-				<div class="box-logo-footer"><a href="/" class="footer-logo__link"><img src="img/footer/logo_real_white.svg"
-							alt="Автошкола Реал" title="Автошкола Реал"></a>
-					<div class="contacts-footer">
-						<div itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name"
-								class="name-invis">Автошкола РЕАЛ</span>
-							<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-								<div class="footer-phone__link moskva"><a href="tel:74998775180"
-										class="footer-phone__link"><span itemprop="telephone">+7 499 877 51 80</span></a></div>
-								<span itemprop="postalCode">115088</span>, г.<span itemprop="addressLocality"> Москва</span>,
-								<span itemprop="streetAddress">ул. Южнопортовая, д. 5, стр. 7</span>
+			<div class="container footer__container">
+				<div class="footer-top__div">
+					<div class="box-logo-footer"><a href="/" class="footer-logo__link"><img
+								src="img/footer/logo_real_white.svg" alt="Автошкола Реал" title="Автошкола Реал"></a>
+						<div class="contacts-footer">
+							<div itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name"
+									class="name-invis">Автошкола РЕАЛ</span>
+								<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+									<div class="footer-phone__link moskva"><a href="tel:74998775180"
+											class="footer-phone__link"><span itemprop="telephone">+7 499 877 51 80</span></a></div>
+									<span itemprop="postalCode">115088</span>, г.<span itemprop="addressLocality"> Москва</span>,
+									<span itemprop="streetAddress">ул. Южнопортовая, д. 5, стр. 7</span>
+								</div>
 							</div>
 						</div>
+						<div class="footer_shedule">пн–пт: 09:00 - 19:00; сб–вс: 10:00 - 18:00</div>
 					</div>
-					<div class="footer_shedule">пн–пт: 09:00 - 19:00; сб–вс: 10:00 - 18:00</div>
-				</div>
-				<nav class="footer-menu__nav">
-					<ul class="footer-menu">
-						<li class="footer-menu__item"><a href="/categories/b/"
-								class="footer-menu__link add_category">Категория B
-								(МКП)</a></li>
-						<li class="footer-menu__item"><a href="/aktsii/" class="footer-menu__link">Акции</a></li>
-						<li class="footer-menu__item"><a href="/raspisanie/" class="footer-menu__link">Расписание</a></li>
-						<li class="footer-menu__item"><a href="/categories/b-at/"
-								class="footer-menu__link add_category">Категория B
-								(АКП)</a></li>
-						<li class="footer-menu__item"><a href="/about/" class="footer-menu__link">О нас</a></li>
-						<li class="footer-menu__item"><a href="/about/ploshchadki-avtoshkoly/"
-								class="footer-menu__link">Площадка</a></li>
-						<li class="footer-menu__item"><a href="/categories/a/"
-								class="footer-menu__link add_category">Категория
-								A,A1</a></li>
-						<li class="footer-menu__item"><a href="/filials/" class="footer-menu__link">Галерея</a></li>
-						<li class="footer-menu__item"><a href="/blog/" class="footer-menu__link">Блог</a></li>
-						<li class="footer-menu__item"><a href="/categories/al/"
-								class="footer-menu__link add_category">Категория
-								AI</a></li>
-						<li class="footer-menu__item"><a href="/contacts/" class="footer-menu__link">Контакты</a></li>
-						<li class="footer-menu__item"><a href="/filials/" class="footer-menu__link">Филиалы</a></li>
-						<li class="footer-menu__item"><a href="/categories/m/"
-								class="footer-menu__link add_category">Категория
-								M</a></li>
-					</ul>
-				</nav>
-				<div class="box-footer-social">
-					<div class="social-icons__wrapper">
-						<div class="footer-soc"><a href="https://vk.com/realavto_com?roistat_visit=659588"
-								target="_blank"><img class="ami-lazy loaded"
-									src="https://real-avto.com/upload/adwex.minified/webp/8ed/95/8ed7356343b421e62c8316c526fb1855.webp"
-									data-src="/upload/adwex.minified/webp/8ed/95/8ed7356343b421e62c8316c526fb1855.webp"
-									alt="VK Реал" title="VK Реал" data-was-processed="true"></a><a
-								href="https://www.instagram.com/real_prava/?roistat_visit=659588" target="_blank"><img
-									class="ami-lazy loaded"
-									src="https://real-avto.com/upload/adwex.minified/webp/b22/95/b220d055043b54e584d7592013d037c5.webp"
-									data-src="/upload/adwex.minified/webp/b22/95/b220d055043b54e584d7592013d037c5.webp"
-									alt="Instagram Реал" title="Instagram Реал" data-was-processed="true"></a><a
-								href="https://www.youtube.com/channel/UC-q1oObrfNzAFPtPHm1bMfg?roistat_visit=659588"
-								target="_blank"><img class="ami-lazy loaded"
-									src="https://real-avto.com/upload/adwex.minified/webp/b45/95/b45dd3ae3fe317c1a3059cc6ad0b90fc.webp"
-									data-src="/upload/adwex.minified/webp/b45/95/b45dd3ae3fe317c1a3059cc6ad0b90fc.webp"
-									alt="Youtube Реал" title="Youtube Реал" data-was-processed="true"></a></div>
-						<div class="footer-app"><a
-								href="https://apps.apple.com/ru/app/%D0%B0%D0%B2%D1%82%D0%BE%D1%88%D0%BA%D0%BE%D0%BB%D0%B0-%D1%80%D0%B5%D0%B0%D0%BB/id1427371259?roistat_visit=659588"
-								target="_blank" class="footer-soc__link"><img class="ami-lazy loaded"
-									src="https://real-avto.com/upload/adwex.minified/webp/629/95/629ec7242409a7c3ae9b81060774480e.webp"
-									data-src="/upload/adwex.minified/webp/629/95/629ec7242409a7c3ae9b81060774480e.webp"
-									alt="App Store Реал" title="App Store Реал" data-was-processed="true"></a><a
-								href="https://play.google.com/store/apps/details?id=com.dev.realavto.app&amp;hl=ru&amp;roistat_visit=659588"
-								target="_blank" class="footer-soc__link"><img class="ami-lazy loaded"
-									src="https://real-avto.com/upload/adwex.minified/webp/11e/95/11e9cca1a3c2602115c337b195ecd7f2.webp"
-									data-src="/upload/adwex.minified/webp/11e/95/11e9cca1a3c2602115c337b195ecd7f2.webp"
-									alt="Google Play Реал" title="Google Play Реал" data-was-processed="true"></a></div>
-						<iframe src="https://yandex.ru/sprav/widget/rating-badge/1145950632" width="150" height="50"
-							frameborder="0" class="yandex_sprav"></iframe>
+					<nav class="footer-menu__nav">
+						<ul class="footer-menu">
+							<li class="footer-menu__item"><a href="/categories/b/"
+									class="footer-menu__link add_category">Категория B
+									(МКП)</a></li>
+							<li class="footer-menu__item"><a href="/aktsii/" class="footer-menu__link">Акции</a></li>
+							<li class="footer-menu__item"><a href="/raspisanie/" class="footer-menu__link">Расписание</a></li>
+							<li class="footer-menu__item"><a href="/categories/b-at/"
+									class="footer-menu__link add_category">Категория B
+									(АКП)</a></li>
+							<li class="footer-menu__item"><a href="/about/" class="footer-menu__link">О нас</a></li>
+							<li class="footer-menu__item"><a href="/about/ploshchadki-avtoshkoly/"
+									class="footer-menu__link">Площадка</a></li>
+							<li class="footer-menu__item"><a href="/categories/a/"
+									class="footer-menu__link add_category">Категория
+									A,A1</a></li>
+							<li class="footer-menu__item"><a href="/filials/" class="footer-menu__link">Галерея</a></li>
+							<li class="footer-menu__item"><a href="/blog/" class="footer-menu__link">Блог</a></li>
+							<li class="footer-menu__item"><a href="/categories/al/"
+									class="footer-menu__link add_category">Категория
+									AI</a></li>
+							<li class="footer-menu__item"><a href="/contacts/" class="footer-menu__link">Контакты</a></li>
+							<li class="footer-menu__item"><a href="/filials/" class="footer-menu__link">Филиалы</a></li>
+							<li class="footer-menu__item"><a href="/categories/m/"
+									class="footer-menu__link add_category">Категория
+									M</a></li>
+						</ul>
+					</nav>
+					<div class="box-footer-social">
+						<div class="social-icons__wrapper">
+							<div class="footer-soc"><a href="https://vk.com/realavto_com?roistat_visit=659588"
+									target="_blank"><img class="ami-lazy loaded"
+										src="https://real-avto.com/upload/adwex.minified/webp/8ed/95/8ed7356343b421e62c8316c526fb1855.webp"
+										data-src="/upload/adwex.minified/webp/8ed/95/8ed7356343b421e62c8316c526fb1855.webp"
+										alt="VK Реал" title="VK Реал" data-was-processed="true"></a><a
+									href="https://www.instagram.com/real_prava/?roistat_visit=659588" target="_blank"><img
+										class="ami-lazy loaded"
+										src="https://real-avto.com/upload/adwex.minified/webp/b22/95/b220d055043b54e584d7592013d037c5.webp"
+										data-src="/upload/adwex.minified/webp/b22/95/b220d055043b54e584d7592013d037c5.webp"
+										alt="Instagram Реал" title="Instagram Реал" data-was-processed="true"></a><a
+									href="https://www.youtube.com/channel/UC-q1oObrfNzAFPtPHm1bMfg?roistat_visit=659588"
+									target="_blank"><img class="ami-lazy loaded"
+										src="https://real-avto.com/upload/adwex.minified/webp/b45/95/b45dd3ae3fe317c1a3059cc6ad0b90fc.webp"
+										data-src="/upload/adwex.minified/webp/b45/95/b45dd3ae3fe317c1a3059cc6ad0b90fc.webp"
+										alt="Youtube Реал" title="Youtube Реал" data-was-processed="true"></a></div>
+							<div class="footer-app"><a
+									href="https://apps.apple.com/ru/app/%D0%B0%D0%B2%D1%82%D0%BE%D1%88%D0%BA%D0%BE%D0%BB%D0%B0-%D1%80%D0%B5%D0%B0%D0%BB/id1427371259?roistat_visit=659588"
+									target="_blank" class="footer-soc__link"><img class="ami-lazy loaded"
+										src="https://real-avto.com/upload/adwex.minified/webp/629/95/629ec7242409a7c3ae9b81060774480e.webp"
+										data-src="/upload/adwex.minified/webp/629/95/629ec7242409a7c3ae9b81060774480e.webp"
+										alt="App Store Реал" title="App Store Реал" data-was-processed="true"></a><a
+									href="https://play.google.com/store/apps/details?id=com.dev.realavto.app&amp;hl=ru&amp;roistat_visit=659588"
+									target="_blank" class="footer-soc__link"><img class="ami-lazy loaded"
+										src="https://real-avto.com/upload/adwex.minified/webp/11e/95/11e9cca1a3c2602115c337b195ecd7f2.webp"
+										data-src="/upload/adwex.minified/webp/11e/95/11e9cca1a3c2602115c337b195ecd7f2.webp"
+										alt="Google Play Реал" title="Google Play Реал" data-was-processed="true"></a></div>
+							<iframe src="https://yandex.ru/sprav/widget/rating-badge/1145950632" width="150" height="50"
+								frameborder="0" class="yandex_sprav"></iframe>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="footer-bottom__div">
-				<p class="footer-inn">ИНН 5034045337<br>КПП 503401001 / ОГРН 1135034000287</p>
-				<p class="footer-info_text">© 2013 - 2021 Автошкола “Реал”<br>Все права защищены. Копирование материалов
-					разрешено только с согласия правообладателя.</p>
-				<!-- </div> -->
+				<div class="footer-bottom__div">
+					<p class="footer-inn">ИНН 5034045337<br>КПП 503401001 / ОГРН 1135034000287</p>
+					<p class="footer-info_text">© 2013 - 2021 Автошкола “Реал”<br>Все права защищены. Копирование материалов
+						разрешено только с согласия правообладателя.</p>
+				</div>
 			</div>
 		</footer>
 	</div>
@@ -1139,9 +1213,9 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220319104638"></script>
-	<script src="js/template_scripts.js?_v=20220319104638"></script>
-	<script src="js/new_scripts.js?_v=20220319104638"></script>
+	<script src="js/app.min.js?_v=20220322200304"></script>
+	<script src="js/template_scripts.js?_v=20220322200304"></script>
+	<script src="js/new_scripts.js?_v=20220322200304"></script>
 </body>
 
 </html>

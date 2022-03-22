@@ -44,6 +44,7 @@
 }
 
 /** button **/
+/* 
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -61,11 +62,11 @@
   font-weight: bold;
   line-height: 20px;
   color: #fff;
-  background: #ff931e;
+  background: #FF931E;
   border: 0;
   border-radius: 50px;
-  /* -webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.15), inset 2px 4px 5px rgba(0, 0, 0, 0.15); */
-  /* box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.15), inset 2px 4px 5px rgba(0, 0, 0, 0.15); */
+  -webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.15), inset 2px 4px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.15), inset 2px 4px 5px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -75,7 +76,7 @@
 
 .btn:hover {
   color: #fff;
-}
+} */
 
 .btn.-block {
   display: -webkit-box;
